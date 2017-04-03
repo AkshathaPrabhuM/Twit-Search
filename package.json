@@ -1,0 +1,32 @@
+{
+  "name": "twit-search",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mz": "^2.6.0",
+    "react-scripts": "0.9.5",
+    "supertest": "^3.0.0",
+    "supertest-as-promised": "^4.0.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "express": "^4.15.2",
+    "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.0",
+    "reactstrap": "^4.4.0",
+    "socket.io": "^1.7.3",
+    "twit": "^2.2.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:server": "node server",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "mocha test"
+  }
+}
